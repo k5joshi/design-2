@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px;
+}
+
+#list{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+#list span {
+    padding: 8px 21px;
+}
+
+#list a{
+    text-decoration: none;
+}
+
+#signUp{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px 24px;    
+}
+
+#login{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 21px;
+}
+
+#navbar h1{
+    color: rgb(128, 206, 182);
+    font-weight: 600;
+    font-size: 2rem;   
+}
+
+.landing{
+    padding: 0px 50px;
+    padding-bottom:45px ;
+    height: 50%;
+}
+#image{
+    height:65vh;
+    background-image: url(resources/img1.webp);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    visibility: visible;
+    border-radius: 10px;
+}
+#info{
+    position: relative;
+    display: flex;
+    width:720px;
+    border: 10px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(34, 34, 34, 0.07) 0px 4px 15px;
+    height: 100px;
+    top:-35px;
+    left: 10%;
+    border-radius: 4px;
+    background-color: rgb(234, 241, 216);
+}
+
+.info-1{
+    font-size: 8px;
+    padding: 0px 20px;
+}
+
+.info-1 h3{
+    color: grey;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+#arrow{
+    padding: 10px;
+    border-radius: 2px;
+    border:1px solid greenyellow;
+    background-color: greenyellow;
+}
+#arrow i{
+    font-weight: 600;
+
+}
+.line{
+    height: 35px;
+    border: 1px solid grey;
+}
+
+#deal{
+    width: 535px;
+    position: relative;
+    top: 20%;
+    left: 21%;
+    font-size: 21px;
+    padding: 2px;
+    color: white;
+}
+
+#chart{
+    padding: 5px 50px;
+}
+
+#chart h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.routes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 1px;
+}
+.route-prop{
+    color: white;
+    height: 45vh;
+    width: 23%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#route-1{  
+    background-image: url(resources/route01.webp);
+}
+#route-2{
+    background-image: url(resources/route02.webp);
+}
+#route-3{
+    background-image: url(resources/route03.webp);
+}
+#route-4{
+    background-image: url(resources/route04.webp);
+}
+
+.route-prop h3{
+    position: relative;
+    top: 70%;
+    left: 7%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.route-prop p{
+    position: relative;
+    top: 72%;
+    font-size: 14px;
+    font-weight: 500;
+    left: 9%;
+}
+
